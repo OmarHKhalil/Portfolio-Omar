@@ -1,0 +1,20 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="900" rx="48" fill="#0F172A"/>
+  <rect x="36" y="36" width="728" height="828" rx="36" stroke="#3B82F6" stroke-opacity="0.35" stroke-width="3"/>
+  <circle cx="400" cy="350" r="182" fill="url(#paint0_linear)"/>
+  <path d="M256 689C280 562 335 504 400 504C465 504 520 562 544 689" fill="#1E293B"/>
+  <circle cx="400" cy="330" r="118" fill="#F2C49B"/>
+  <path d="M287 308C287 230 346 174 400 174C454 174 513 230 513 308V323C513 399 454 458 400 458C346 458 287 399 287 323V308Z" fill="#111827"/>
+  <path d="M316 325C316 280 353 244 398 244C443 244 480 280 480 325V336C480 381 443 418 398 418C353 418 316 381 316 336V325Z" fill="#F5C89D"/>
+  <path d="M290 312C290 250 339 200 400 200C461 200 510 250 510 312V318C510 373 461 418 400 418C339 418 290 373 290 318V312Z" fill="#111827"/>
+  <path d="M312 310C312 268 344 236 386 236H414C456 236 488 268 488 310V318C488 379 439 431 400 431C361 431 312 379 312 318V310Z" fill="#F2C49B"/>
+  <path d="M296 690H504" stroke="#3B82F6" stroke-width="16" stroke-linecap="round"/>
+  <rect x="171" y="128" width="458" height="90" rx="24" fill="#172554" fill-opacity="0.85"/>
+  <text x="400" y="182" text-anchor="middle" fill="#E2E8F0" font-size="40" font-family="Segoe UI, Arial, sans-serif" font-weight="700">AI ENGINEER</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="218" y1="168" x2="582" y2="532" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+</svg>

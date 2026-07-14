@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Khalil | CV</title>
+    <style>
+      :root {
+        --bg: #07111f;
+        --card: #0f172a;
+        --card-2: #111c31;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #38bdf8;
+        --accent-2: #8b5cf6;
+        --border: #1e293b;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, var(--bg), #0b1220);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      .page {
+        max-width: 1100px;
+        margin: 30px auto;
+        background: rgba(15, 23, 42, 0.95);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+        overflow: hidden;
+      }
+      .header {
+        padding: 40px 45px 30px;
+        background: linear-gradient(90deg, rgba(56,189,248,0.15), rgba(139,92,246,0.15));
+        border-bottom: 1px solid var(--border);
+      }
+      .header h1 {
+        margin: 0 0 8px;
+        font-size: 2.2rem;
+        color: white;
+      }
+      .role {
+        font-size: 1.1rem;
+        color: var(--accent);
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      .summary {
+        color: var(--muted);
+        max-width: 780px;
+        font-size: 1rem;
+      }
+      .contact {
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .contact span {
+        background: rgba(255,255,255,0.06);
+        border: 1px solid var(--border);
+        padding: 8px 12px;
+        border-radius: 999px;
+        font-size: 0.95rem;
+        color: #dbeafe;
+      }
+      .content {
+        padding: 25px 45px 45px;
+        display: grid;
+        gap: 20px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 22px 24px;
+      }
+      .card h2 {
+        margin: 0 0 12px;
+        font-size: 1.2rem;
+        color: white;
+      }
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .skills span,
+      .tag {
+        display: inline-block;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, rgba(56,189,248,0.15), rgba(139,92,246,0.15));
+        border: 1px solid rgba(56,189,248,0.25);
+        color: #dbeafe;
+        font-size: 0.95rem;
+      }
+      .grid-2 { display: grid; gap: 18px; grid-template-columns: 1fr 1fr; }
+      .project {
+        margin-top: 10px;
+        padding: 12px 0;
+        border-bottom: 1px solid var(--border);
+      }
+      .project:last-child { border-bottom: none; }
+      .project h3 { margin: 0 0 6px; color: #f8fafc; }
+      .project p { margin: 0; color: var(--muted); }
+      ul { margin: 8px 0 0 18px; color: var(--muted); }
+      .footer-note {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      @media (max-width: 760px) {
+        .header, .content { padding-left: 20px; padding-right: 20px; }
+        .grid-2 { grid-template-columns: 1fr; }
+        .page { margin: 12px; border-radius: 16px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1>Omar Khalil</h1>
+        <div class="role">AI Engineer | Machine Learning | Deep Learning | Generative AI | Computer Vision</div>
+        <p class="summary">
+          AI Engineer with a strong portfolio in machine learning, deep learning, NLP,
+          computer vision, LLMs, RAG systems, and AI agents. I build practical AI solutions
+          that combine research concepts with real-world product thinking.
+        </p>
+        <div class="contact">
+          <span>Phone: [Your Phone Number]</span>
+          <span>Email: [Your Email]</span>
+          <span>LinkedIn: [Your LinkedIn]</span>
+          <span>Location: [Your City, Country]</span>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="card">
+          <h2>Professional Summary</h2>
+          <p style="margin: 0; color: var(--muted);">
+            I have developed AI systems across multiple domains including finance, travel,
+            document intelligence, retail, and computer vision. My portfolio includes projects
+            involving predictive analytics, image classification, OCR, document QA, and intelligent agents.
+          </p>
+        </section>
+
+        <section class="card">
+          <h2>Core Skills</h2>
+          <div class="skills">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Deep Learning</span>
+            <span>Computer Vision</span>
+            <span>NLP</span>
+            <span>LLMs</span>
+            <span>RAG Systems</span>
+            <span>AI Agents</span>
+            <span>Prompt Engineering</span>
+            <span>PyTorch</span>
+            <span>scikit-learn</span>
+            <span>OpenCV</span>
+            <span>FastAPI</span>
+            <span>Streamlit</span>
+            <span>SQL</span>
+            <span>Git</span>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Selected Projects</h2>
+          <div class="project">
+            <h3>Smart Travel Agent ReAct</h3>
+            <p>Built an AI travel planning assistant that uses reasoning and tool-based execution.</p>
+          </div>
+          <div class="project">
+            <h3>DocMind AI Multi-Agent</h3>
+            <p>Created a multi-agent system for document analysis, extraction, and conversational interaction.</p>
+          </div>
+          <div class="project">
+            <h3>AskMyDocs</h3>
+            <p>Implemented a retrieval-based assistant for answering questions over documents and knowledge sources.</p>
+          </div>
+          <div class="project">
+            <h3>GenAI Finance Chatbot</h3>
+            <p>Developed an LLM-powered finance assistant for business and user-focused financial Q&A.</p>
+          </div>
+          <div class="project">
+            <h3>Receipt Recognition System</h3>
+            <p>Designed an OCR and classification pipeline for receipts and invoices using computer vision methods.</p>
+          </div>
+          <div class="project">
+            <h3>NutriVision Food Classification</h3>
+            <p>Built a deep learning image classification system for food recognition and nutrition-oriented applications.</p>
+          </div>
+        </section>
+
+        <div class="grid-2">
+          <section class="card">
+            <h2>Education & Academic Focus</h2>
+            <ul>
+              <li>Artificial Intelligence</li>
+              <li>Information Retrieval</li>
+              <li>Computer Graphics</li>
+              <li>Expert Systems</li>
+              <li>Software Engineering</li>
+            </ul>
+          </section>
+
+          <section class="card">
+            <h2>Highlights</h2>
+            <ul>
+              <li>Strong portfolio of applied AI and ML projects</li>
+              <li>Experience with modern GenAI and LLM workflows</li>
+              <li>Ability to turn ideas into practical prototypes and solutions</li>
+              <li>Interested in building real-world AI products</li>
+            </ul>
+          </section>
+        </div>
+
+        <section class="card">
+          <h2>Additional Information</h2>
+          <p style="margin: 0; color: var(--muted);">
+            This CV is designed as a professional starting point. You can replace the placeholder
+            contact details and tailor the wording to the specific role you are applying for.
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
