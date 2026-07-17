@@ -33,7 +33,7 @@ export const projects: Project[] = [
     tags: ['Production', 'Computer Vision', 'API'],
     technologies: ['FastAPI', 'YOLOv8', 'PyTorch', 'ResNet-50', 'Google Gemini', 'OpenCV'],
     links: {
-      github: 'https://github.com/yourusername/receipt-recognition-system',
+      github: 'https://github.com/OmarHKhalil/receipt-recognition-system',
     },
     metrics: [
       { label: 'Image Validation Accuracy', value: '98.83%' },
