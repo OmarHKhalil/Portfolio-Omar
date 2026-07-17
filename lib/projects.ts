@@ -149,7 +149,7 @@ export const projects: Project[] = [
     tags: ['Computer Vision', 'Deep Learning', 'PyTorch', 'CNN'],
     technologies: ['PyTorch', 'ResNet50', 'EfficientNet', 'TensorBoard', 'TorchMetrics'],
     links: {
-      github: 'https://github.com/OmarHKhalil/AI-Agents-Projects/tree/main/NutriVision-Food-Classification',
+      github: 'https://github.com/OmarHKhalil/Deep-Learning-Projects/tree/main/NutriVision-Food-Classification',
       demo: 'https://huggingface.co/spaces/Omarsy2/nutrivision-app',
     },
     metrics: [
