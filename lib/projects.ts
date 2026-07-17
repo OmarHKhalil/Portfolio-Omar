@@ -79,7 +79,7 @@ export const projects: Project[] = [
     tags: ['ML Pipeline', 'API', 'Banking'],
     technologies: ['FastAPI', 'XGBoost', 'LightGBM', 'scikit-learn', 'pandas'],
     links: {
-      github: 'https://github.com/OmarHKhalil/Machine-Learning-Projects/tree/main/churn-recommendation',
+      github: 'https://github.com/OmarHKhalil/Bank-Retention-Recommendation',
       demo: 'https://huggingface.co/spaces/Omarsy2/Bank-Retention-Recommendation',
     },
     metrics: [
