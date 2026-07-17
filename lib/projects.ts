@@ -126,7 +126,7 @@ export const projects: Project[] = [
     tags: ['Full-Stack', 'Computer Vision', 'UI'],
     technologies: ['PyTorch', 'ResNet50', 'FastAPI', 'Streamlit', 'OpenCV'],
     links: {
-      github: 'https://github.com/OmarHKhalil/Deep-Learning-Projects/tree/main/NutriVision-Food-Classification',
+      github: 'https://github.com/OmarHKhalil/Deep-Learning-Projects/tree/main/Menu_Classification',
     },
     metrics: [
       { label: 'Categories', value: '5' },
