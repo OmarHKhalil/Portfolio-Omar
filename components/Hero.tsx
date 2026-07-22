@@ -122,8 +122,8 @@ export function Hero() {
             
             {/* الزر الأول: Download My CV */}
             <motion.a
-              href="/Final_Omar_Khalil.pdf"
-              download="Omar_Khalil_CV.pdf"
+              href="/Omar_Khalil_AI_ML_Engineer.pdf"
+              download="Omar_Khalil_AI_ML_Engineer.pdf"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-blue-500 to-violet-600 px-6 py-3 transition-colors hover:from-blue-400 hover:to-violet-500 sm:px-8 sm:py-3.5"
