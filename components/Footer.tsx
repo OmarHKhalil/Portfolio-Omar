@@ -21,7 +21,7 @@ export function Footer() {
               Eng. Omar Khalil
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              AI Engineer • Backend
+              AI Engineer • ML • DL • GenAI
             </p>
           </div>
 

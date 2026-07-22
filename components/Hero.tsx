@@ -63,7 +63,7 @@ export function Hero() {
         {/* 1. قسم شارات التخصص العليا */}
         <motion.div variants={item} className="mb-8">
           <div className="inline-flex rounded-full border border-slate-800 bg-slate-900/70 px-4 py-2 text-xs font-medium text-slate-400 sm:text-sm">
-            ML | DL | CV | LLMS | RAG | AI Agents
+            ML | DL | CV | LLMs | RAG | AI Agents
           </div>
         </motion.div>
 

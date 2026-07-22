@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
-
+import { BackToTop } from '@/components/BackToTop';
 export const metadata: Metadata = {
   title: 'AI & ML Engineer | Production-Ready Systems',
   description:
@@ -28,6 +28,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-slate-950 text-slate-100 antialiased" suppressHydrationWarning={true}>
         {children}
+        <BackToTop />
         <Analytics />
       </body>
     </html>

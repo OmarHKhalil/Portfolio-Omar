@@ -32,7 +32,7 @@ export function FeaturedProjects() {
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }} className="mb-10 text-center sm:mb-16">
           <h3 className="mb-3 inline-flex rounded-full border border-slate-800 bg-slate-900/70 px-4 py-2 text-sm font-medium text-cyan-400 sm:mb-4">Featured Projects</h3>
 
-          <p className="mx-auto max-w-2xl text-base text-slate-400 sm:text-lg">A snapshot of my most impactful work in machine learning, computer vision, and production-grade AI systems.</p>
+          <p className="mx-auto max-w-2xl text-base text-slate-400 sm:text-lg">A snapshot of my most impactful work in machine learning, computer vision, generative AI, and end-to-end AI systems.</p>
         </motion.div>
 
         <motion.div variants={containerVariants} initial="hidden" whileInView="show" viewport={{ once: true }} className="mb-10 grid grid-cols-1 gap-6 sm:mb-12 sm:gap-8">
@@ -54,6 +54,25 @@ export function FeaturedProjects() {
                   <h3 className="min-w-0 mb-1 text-sm font-bold text-slate-100 transition-colors group-hover:text-blue-400 sm:text-sm">{project.title}</h3>
                   <p className="min-w-0 mb-2 text-[11px] leading-relaxed text-slate-400 sm:text-xs">{project.description}</p>
 
+{project.contributions && project.contributions.length > 0 && (
+  <div className="mt-4">
+    <h4 className="mb-2 text-sm font-semibold text-slate-300">
+      My Contributions
+    </h4>
+
+    <ul className="space-y-2">
+      {project.contributions.map((contribution, i) => (
+        <li
+          key={i}
+          className="flex gap-2 text-[11px] leading-relaxed text-slate-400 sm:text-xs"
+        >
+          <span className="mt-1 text-blue-400">•</span>
+          <span>{contribution}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
                   {project.metrics && (
                     <div className="mb-2 flex min-w-0 flex-col gap-1.5 border-y border-slate-800 py-2 sm:mb-2 sm:flex-row sm:items-stretch sm:justify-center sm:gap-2 sm:py-2">
                       {project.metrics.map((metric, i) => (

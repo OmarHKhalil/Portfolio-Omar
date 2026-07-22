@@ -54,13 +54,13 @@ const handleSubmit = async (e: React.FormEvent) => {
     {
       icon: Brain,
       label: 'Focus',
-      value: 'AI Engineering, CV & Backend Systems',
+      value: 'AI Engineering, Computer Vision & Generative AI',
       href: '#skills',
     },
     {
       icon: Sparkles,
       label: 'Availability',
-      value: 'Open for scalable AI collaborations',
+      value: 'Open to AI Engineering opportunities, internships, and collaborations',
       href: '#projects',
     },
   ];

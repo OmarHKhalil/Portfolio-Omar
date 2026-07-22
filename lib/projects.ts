@@ -6,6 +6,7 @@ export interface Project {
   image: string;
   tags: string[];
   technologies: string[];
+  contributions?: string[];
   links: {
     github?: string;
     demo?: string;
@@ -23,6 +24,82 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+ {
+  id: 'venezia-bank',
+  title: 'Venezia Bank – AI-Powered Digital Banking System',
+
+shortDescription:
+  'A comprehensive AI-powered digital banking ecosystem for customers and bank employees, integrating digital banking services, intelligent financial analysis, and multiple AI-driven decision-support systems.',
+
+description:
+  'Venezia Bank is a comprehensive AI-powered digital banking ecosystem developed as a senior graduation project. The platform provides a complete digital banking environment for both customers and bank employees, combining customer-facing mobile and web applications with staff and administrative portals for managing banking operations.',
+
+  image: '/projects/venezia-bank.svg',
+
+  tags: [
+    'AI Platform',
+    'Digital Banking',
+    'Machine Learning',
+    'Deep Learning',
+    'Computer Vision',
+    'Generative AI',
+    'RAG',
+    'Financial AI'
+  ],
+
+  technologies: [
+    'Flutter',
+    'Dart',
+    'Laravel',
+    'AI',
+    'PHP',
+    'MySQL',
+    'REST APIs',
+    'Python',
+    'FastAPI',
+    'PyTorch',
+    'Machine Learning',
+    'Deep Learning',
+    'Computer Vision',
+    'NLP',
+    'LLMs',
+    'RAG',
+    'Google Gemini',
+    'FinBERT',
+    'YOLOv8',
+    'ResNet'
+  ],
+
+  contributions: [
+    'Developed an AI-powered financial chatbot using LLMs and RAG.',
+
+    'Developed a receipt recognition pipeline for extracting structured financial data from receipt images.',
+
+    'Developed a customer churn prediction and retention recommendation system.',
+
+    'Developed a financial savings prediction and recommendation system.',
+
+    'Integrated AI solutions into the banking platform using FastAPI and REST APIs.',
+
+    'Contributed to the initial system architecture, database design, data modeling, and definition of core workflows during the planning and design phase.'
+  ],
+
+metrics: [
+  { label: 'AI Solutions', value: '8+' },
+  { label: 'User Platforms', value: '3' },
+  { label: 'AI Services', value: 'FastAPI' },
+  { label: 'Architecture', value: 'Multi-Service' }
+],
+
+  links: {
+    github: 'https://github.com/abdulaziz-bawabeh/venezia-bank-ai-system'
+  },
+
+  featured: true,
+  impact: 'critical',
+  order: 1,
+},
+
   {
     id: 'receipt-recognition',
     title: 'Receipt Recognition System',
