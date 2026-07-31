@@ -1,3 +1,5 @@
+import { homedir } from "os";
+
 export const aboutContent = {
 //headline: 'AI Engineer & Informatics Engineering Graduate',
   tagline: 'Passionate about building AI systems that turn ideas into practical, real-world solutions.',
@@ -38,57 +40,73 @@ export const education = [
 
 export const certifications = [
   {
+    name: 'Build AI Agents using MCP',
+    issuer: 'Learning certificate',
+    date: 'July 31, 2026',
+    hours: '10 hours',
+    file: '/certificates/Build AI Agents using MCP.jpg',
+  },
+  {
     name: 'Agentic AI with LangChain and LangGraph',
     issuer: 'Learning certificate',
-    date: '2026',
+    date: 'June 30, 2026',
+    hours: '10 hours',
     file: '/certificates/Agentic AI with LangChain and LangGraph.jpg',
   },
   {
     name: 'Generative AI with LargeLanguageModels',
     issuer: 'Learning certificate',
-    date: '2026',
+    date: 'September 25, 2025',
+    hours: '16 hours',
     file: '/certificates/Generative AI with Large Language Models.jpg',
   },
   {
     name: 'Machine Learning',
     issuer: 'Learning certificate',
-    date: '2026',
+    date: 'March 26, 2026',
+    hours: '95 hours',
     file: '/certificates/Machine Learning.jpg',
   },
   {
     name: 'Supervised ML Regression Classification',
     issuer: 'Learning certificate',
-    date: '2026',
+    // date: 'March 23, 2026',
+    hours: '33 hours',
     file: '/certificates/Supervised _ML_Regression_Classification.jpg',
   },
   {
     name: 'Unsupervised Learning, Recommenders',
     issuer: 'Learning certificate',
-    date: '2026',
+    // date: 'March 26, 2026',
+    hours: '28 hours',
     file: '/certificates/Unsupervised Learning, Recommenders.jpg',
   },
   {
     name: 'Advanced Learning Algorithms',
     issuer: 'Learning certificate',
-    date: '2026',
+    // date: 'March 23, 2026',
+    hours: '34 hours',
     file: '/certificates/Advanced Learning Algorithms.jpg',
   },
   {
     name: 'Gen AI in Cybersecurity',
     issuer: 'Learning certificate',
-    date: '2026',
+    date: 'April 16, 2026',
+    hours: '3 hours',
     file: '/certificates/Gen AI in Cybersecurity.jpg',
   },
   {
-    name: 'GenAI for CybersecurityAnalysts',
+    name: 'GenAI for Cybersecurity Analysts',
     issuer: 'Learning certificate',
-    date: '2026',
+    date: 'February 11, 2026',
+    hours: '1 hours',
     file: '/certificates/GenAI for CybersecurityAnalysts.jpg',
   },
   {
     name: 'Effective Time Management',
     issuer: 'Learning certificate',
-    date: '2026',
+    date: 'February 7, 2025',
+    hours: '1 hours',
     file: '/certificates/EffectiveTime Management.jpg',
   },
 ];

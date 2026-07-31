@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Clock, Calendar } from 'lucide-react'; // أضفنا أيقونات للساعات والتاريخ
 import { certifications } from '@/lib/about';
 
 export function Certifications() {
@@ -43,7 +43,7 @@ export function Certifications() {
         {/* الحاوية الرئيسية للشهادات */}
         <div className="mx-auto max-w-3xl rounded-[1.25rem] border border-slate-800 bg-slate-900/70 p-3 shadow-xl shadow-slate-950/40 sm:p-5">
           
-          {/* سطر التحكم العلوي: يحتوي على سهم اليسار، اسم الشهادة الحالية بالمنتصف، وسهم اليمين */}
+          {/* سطر التحكم العلوي */}
           <div className="mb-4 flex items-center justify-between gap-4">
             <button onClick={goToPrevious} aria-label="Previous certificate" className="flex-shrink-0 rounded-full border border-slate-700 bg-slate-950/70 p-2 text-slate-200 transition hover:border-cyan-400 hover:text-cyan-300">
               <ArrowLeft className="h-3.5 w-3.5" />
@@ -53,6 +53,22 @@ export function Certifications() {
               <p className="text-sm font-semibold text-cyan-300 truncate max-w-[200px] sm:max-w-xs md:max-w-md">
                 {activeCertification.name}
               </p>
+              
+              {/* عرض عدد الساعات وتاريخ الانتهاء أسفل الاسم مباشرة */}
+              <div className="mt-1 flex items-center justify-center gap-3 text-xs text-slate-400">
+                {activeCertification.hours && (
+                  <span className="flex items-center gap-1">
+                    <Clock className="h-3 w-3 text-cyan-400" />
+                    {activeCertification.hours}
+                  </span>
+                )}
+                {activeCertification.date && (
+                  <span className="flex items-center gap-1">
+                    <Calendar className="h-3 w-3 text-cyan-400" />
+                    {activeCertification.date}
+                  </span>
+                )}
+              </div>
             </div>
 
             <button onClick={goToNext} aria-label="Next certificate" className="flex-shrink-0 rounded-full border border-slate-700 bg-slate-950/70 p-2 text-slate-200 transition hover:border-cyan-400 hover:text-cyan-300">
@@ -71,7 +87,6 @@ export function Certifications() {
                 transition={{ duration: 0.25 }}
                 className="flex flex-col gap-3 p-3 sm:p-4 lg:p-5"
               >
-                {/* 💡 التعديل هنا: تم تقليل الارتفاع الأقصى (max-h) قليلاً ليصبح متوازناً ومناسباً */}
                 <img
                   src={activeCertification.file}
                   alt={activeCertification.name}
