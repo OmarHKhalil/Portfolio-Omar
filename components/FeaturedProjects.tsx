@@ -53,7 +53,6 @@ export function FeaturedProjects() {
 
                   <h3 className="min-w-0 mb-1 text-sm font-bold text-slate-100 transition-colors group-hover:text-blue-400 sm:text-sm">{project.title}</h3>
                   <p className="min-w-0 mb-2 text-[11px] leading-relaxed text-slate-400 sm:text-xs">{project.description}</p>
-
 {project.contributions && project.contributions.length > 0 && (
   <div className="mt-4">
     <h4 className="mb-2 text-sm font-semibold text-slate-300">
@@ -62,6 +61,25 @@ export function FeaturedProjects() {
 
     <ul className="space-y-2">
       {project.contributions.map((contribution, i) => (
+        <li
+          key={i}
+          className="flex gap-2 text-[11px] leading-relaxed text-slate-400 sm:text-xs"
+        >
+          <span className="mt-1 text-blue-400">•</span>
+          <span>{contribution}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+{project.Research_Contribution && project.Research_Contribution.length > 0 && (
+  <div className="mt-4">
+    <h4 className="mb-2 text-sm font-semibold text-slate-300">
+      Research Contributions
+    </h4>
+
+    <ul className="space-y-2">
+      {project.Research_Contribution.map((contribution, i) => (
         <li
           key={i}
           className="flex gap-2 text-[11px] leading-relaxed text-slate-400 sm:text-xs"

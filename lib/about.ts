@@ -1,27 +1,22 @@
-import { homedir } from "os";
-
 export const aboutContent = {
-//headline: 'AI Engineer & Informatics Engineering Graduate',
   tagline: 'Passionate about building AI systems that turn ideas into practical, real-world solutions.',
   intro: `Hi, I'm Omar Khalil, an AI Engineer and Informatics Engineering graduate from Arab International University (AIU). My journey started with machine learning and deep learning, and has expanded to include computer vision, generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI Agents.`,
-  focus: `I enjoy building end-to-end AI projects, from data processing and model development to deploying them as scalable, production-ready applications. I am also currently developing my skills in Backend Development to integrate solid software engineering principles with AI technologies and build comprehensive production solutions. Beyond my technical work, I share my knowledge by creating specialized AI content on LinkedIn, aiming to simplify modern concepts and share the latest technologies and practical projects with the tech community.`,
+  focus: `I enjoy building end-to-end AI projects, from data processing and model development to deploying them as scalable, production-ready applications. Beyond my technical work, I share my knowledge by creating specialized AI content on LinkedIn, aiming to simplify modern concepts and share the latest technologies and practical projects with the tech community.`,
   currentlyLooking: 'I am currently open to job opportunities, internships, and collaborations in AI, computer vision, and generative AI, where I can learn, contribute, and work within teams building technical solutions that make a real impact.',
-  // values: [
-  //   'Production-first thinking',
-  //   'Hands-on experimentation',
-  //   'Clean and maintainable code',
-  //   'Real-world problem solving',
-  //   'Continuous learning',
-  // ],
 };
 
-// export const experience = [
-//   {
-//     role: 'AI & ML Engineer',
-//     status: 'Open to Opportunities',
-//     description: 'Seeking internship or collaborative projects in AI, ML, and computer vision',
-//   },
-// ];
+export const experience = [
+  {
+    title: 'Freelance AI Engineer',
+    period: 'Jan. 2025– Present',
+    location: 'Doha, Qatar',
+    bullets: [
+      'Engineered end-to-end AI systems spanning Computer Vision, RAG applications, and multi-agent workflows using PyTorch, FastAPI, LangChain, and LangGraph.',
+      'Developed and deployed production-ready microservices for banking systems, document intelligence, and multilingual receipt recognition with high-throughput processing.',
+      'Integrated object detection, OCR engines, vector databases (ChromaDB), and local/cloud LLM inference (Ollama, Gemini API) into scalable pipelines.',
+    ],
+  },
+];
 
 export const education = [
   {
@@ -39,6 +34,13 @@ export const education = [
 ];;
 
 export const certifications = [
+  {
+  name: 'Certificate of Authorship – IEEE AEECT 2026',
+  issuer: 'IEEE Jordan Section / AEECT 2026 Conference',
+  date: 'July 30, 2026',
+  credentialId: 'AEECT26-AUT-0194',
+  file: '/certificates/Certificate_of_authorship.jpg',
+},
   {
     name: 'Build AI Agents using MCP',
     issuer: 'Learning certificate',

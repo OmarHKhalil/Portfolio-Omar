@@ -20,9 +20,9 @@ export function Navigation() {
 
   const navItems = [
     { label: 'About', href: '#about' },
+    { label: 'Experience', href: '#experience' },
     { label: 'Skills', href: '#skills' },
     { label: 'Projects', href: '#projects' },
-    // { label: 'Experience', href: '#experience' },
     { label: 'Certifications', href: '#certifications' },
     { label: 'Contact', href: '#contact' },
   ];
@@ -46,7 +46,7 @@ export function Navigation() {
 </motion.div>
 
         {/* 1. تكبير عناصر القائمة للشاشات الكبيرة (تم تغيير text-sm إلى text-base) */}
-        <div className="hidden items-center gap-10 md:flex">
+        <div className="hidden items-center gap-8 md:flex">
           {navItems.map((item) => (
             <motion.a
               key={item.href}

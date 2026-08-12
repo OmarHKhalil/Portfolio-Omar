@@ -6,6 +6,7 @@ export interface Project {
   image: string;
   tags: string[];
   technologies: string[];
+  Research_Contribution?: string[];
   contributions?: string[];
   links: {
     github?: string;
@@ -83,11 +84,13 @@ description:
 
     'Contributed to the initial system architecture, database design, data modeling, and definition of core workflows during the planning and design phase.'
   ],
-
-metrics: [
-  { label: 'AI Solutions', value: '8+' },
-  { label: 'User Platforms', value: '3' },
-  { label: 'AI Services', value: 'FastAPI' },
+  Research_Contribution: [
+    'Co-authored a research paper presented at the 8th IEEE Jordan Conference on Applied Electrical Engineering and Computing Technologies (AEECT 2026), based on a dual-model framework developed as part of this system for stock price movement prediction using technical indicators and financial news sentiment with decision-level fusion.'
+  ],
+  metrics: [
+    { label: 'AI Solutions', value: '8+' },
+    { label: 'User Platforms', value: '3' },
+    { label: 'AI Services', value: 'FastAPI' },
   { label: 'Architecture', value: 'Multi-Service' }
 ],
 

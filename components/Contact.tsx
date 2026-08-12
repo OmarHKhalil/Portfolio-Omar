@@ -73,7 +73,7 @@ const handleSubmit = async (e: React.FormEvent) => {
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }} className="mb-10 text-center sm:mb-16">
           <h3 className="mb-3 inline-flex rounded-full border border-slate-800 bg-slate-900/70 px-4 py-2 text-sm font-medium text-cyan-400 sm:mb-4">Contact Me</h3>
           <p className="mx-auto max-w-2xl text-base text-slate-400 sm:text-lg">
-            I'm always interested in discussing meaningful AI projects, scalable collaborations in backend software development, or new ideas for real world impact.
+            I'm always interested in discussing meaningful AI projects, scalable AI solutions, collaborations, or new ideas for real-world impact.
           </p>
         </motion.div>
 
