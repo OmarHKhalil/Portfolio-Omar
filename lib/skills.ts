@@ -6,6 +6,7 @@ import {
   SiNodedotjs, SiExpress, SiMongodb, SiFastapi, 
   SiPostman, SiJupyter, SiGooglecolab, SiGit, 
   SiGithub // 💡 تم تصحيحها هنا بحرف h صغير في النهاية
+  ,SiDocker
 } from 'react-icons/si';
 import { 
   Brain, Cpu, Database, Network, LineChart, 
@@ -74,20 +75,15 @@ export const skills: SkillCategory[] = [
     ],
   },
   {
-    category: 'Deployment',
-    skills: [
-      { name: 'FastAPI', icon: SiFastapi },
-      { name: 'REST APIs', icon: Terminal },
-      { name: 'Postman', icon: SiPostman },
-    ],
-  },
-  {
     category: 'Tools & Frameworks',
     skills: [
       { name: 'Jupyter Notebook', icon: SiJupyter },
       { name: 'Google Colab', icon: SiGooglecolab },
       { name: 'Git & GitHub', icon: SiGithub }, // 💡 تم ربطها هنا بالـ Icon الصحيح ليتم قراءتها
+      { name: 'Docker', icon: SiDocker },
+      { name: 'REST APIs', icon: Terminal },
       { name: 'FastAPI', icon: SiFastapi },
+      { name: 'Postman', icon: SiPostman },
     ],
   },
   {
