@@ -8,7 +8,7 @@ export const aboutContent = {
 export const experience = [
   {
     title: 'Freelance AI Engineer',
-    period: 'Jan. 2025– Present',
+    period: 'May. 2025– Present',
     location: 'Doha, Qatar',
     bullets: [
       'Engineered end-to-end AI systems spanning Computer Vision, RAG applications, and multi-agent workflows using PyTorch, FastAPI, LangChain, and LangGraph.',
